@@ -58,7 +58,9 @@ $logout = function (Logout $logout) {
                         </button>
                     </x-slot>
                 </x-dropdown>
+                @livewire('notifications')
             </div>
+
 
             <!-- Hamburger -->
             <div class="-me-2 flex items-center sm:hidden">
